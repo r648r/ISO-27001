@@ -109,18 +109,16 @@ le périmètre de votre SMSI doit figurer sur votre certificat ISO 27001 !
 
 De nombreux objectifs sont formulés de telle sorte qu’ils ne motivent pas d’effort, ou ne sont jamais atteints.
 
-Exemple
-    Ils faut au **spliter en s-partie** des titres généraux : 
-    1. Garantir la disponibilité, l’intégrité, la confidentialité et la traçabilité des données »
-    2. Garantir la disponibilité de nos services » **est un objectif non SMART mais qui peut être découpé :**
-        - Maintenir la disponibilité du site web à 99% (mesure mensuelle)
-        - Maintenir la disponibilité du support client en heure ouvrée à 98% (mesure hebdomadaire)
-        - Maintenir la disponibilité des infrastructures informatiques à 99,9% hors période de maintenance, et à 99% en période de maintenance (mesure trimestrielle).
+### Exemple
+Ils faut au **spliter en s-partie** des titres généraux : 
+1. Garantir la disponibilité, l’intégrité, la confidentialité et la traçabilité des données »
+2. Garantir la disponibilité de nos services » **est un objectif non SMART mais qui peut être découpé :**
+    - Maintenir la disponibilité du site web à 99% (mesure mensuelle)
+    - Maintenir la disponibilité du support client en heure ouvrée à 98% (mesure hebdomadaire)
+    - Maintenir la disponibilité des infrastructures informatiques à 99,9% hors période de maintenance, et à 99% en période de maintenance (mesure trimestrielle).
 
 
 ## Conduire une analyse de risques
-
-
 
 Méthodologie existante (ISO27005 ou EBIOS RM) ou custom
 Généralité
