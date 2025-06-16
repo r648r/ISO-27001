@@ -1,0 +1,71 @@
+Qu'est-ce qu'un Bien Support (BS) dans EBIOS RM ?|Un élément (matériel, logiciel, personne, organisation, etc.) sur lequel reposent les valeurs métier ou les mesures de sécurité. Il peut s'agir d'un composant du système d'information ou de l'écosystème.
+Donnez des exemples de Biens Support (BS)|Serveurs (DNS, Web, BDD...), routeur, switch, baie de stockage, employé, logiciel, code, recette industrielle, document papier
+Qu'est-ce qu'une Valeur Métier (VM) dans EBIOS RM ?|Ce qui a de la valeur pour l'activité de l'organisation (ex: processus essentiel, information critique) et qui doit être protégé. L'objet de l'étude est constitué de valeurs métier.
+Donnez des exemples de Valeurs Métier (VM)|Disponibilité e-commerce, confidentialité dossiers médicaux, intégrité formules
+Qu'est-ce qu'un Événement Redouté (ER) dans EBIOS RM ?|Événement qui, s'il se produisait, aurait des conséquences négatives sur les valeurs métier de l'objet de l'étude ou sur les missions de l'organisation.
+Donnez des exemples d'Événements Redoutés (ER)|Indisponibilité site, divulgation dossiers, modification formules
+Qu'est-ce qu'un Impact dans EBIOS RM ?|Conséquence d'un événement redouté sur l'organisation. Les impacts peuvent être de natures diverses : sur les missions et services, humains, matériels, environnementaux, sur la gouvernance, financiers, juridiques, sur l'image et la confiance.
+Donnez des exemples d'Impacts|Perte CA, atteinte réputation, sanctions, arrêt production
+Qu'est-ce que la Gravité dans EBIOS RM ?|Niveau d'importance des conséquences (impacts) d'un événement redouté, évalué selon une échelle définie.
+Donnez un exemple d'évaluation de Gravité|Fuite R&D = Critique, panne doc interne = Mineure
+Qu'est-ce que le Socle de Sécurité dans EBIOS RM ?|Ensemble des exigences et mesures de sécurité de base que l'organisation doit mettre en œuvre, souvent issues de réglementations, de politiques internes ou de bonnes pratiques, indépendamment d'une analyse de risque détaillée.
+Donnez des exemples de mesures du Socle de Sécurité|Politique mots de passe, correctifs, antivirus, sauvegardes. Défense en profondeur, EDR, SIEM
+Qu'est-ce qu'une Source de Risque (SR) dans EBIOS RM ?|Entité ou circonstance ayant le potentiel de causer un dommage. Dans EBIOS RM, il s'agit souvent d'un type d'attaquant.
+Donnez des exemples de Sources de Risque (SR)|Cybercriminels, concurrent, État, employé mécontent, activiste, crime organisé, APT
+Qu'est-ce que les Objectifs Visés (OV) dans EBIOS RM ?|But que cherche à atteindre une source de risque.
+Donnez des exemples d'Objectifs Visés (OV)|Espionnage, gain financier, déstabilisation, entrave au fonctionnement, vol secrets, rançon, perturbation service, ternir réputation
+Qu'est-ce qu'un Scénario Stratégique dans EBIOS RM ?|Description de haut niveau de la manière dont une source de risque (SR) pourrait atteindre un objectif visé (OV), en exploitant potentiellement des faiblesses de l'objet de l'étude ou de son écosystème (via les parties prenantes).
+Donnez un exemple de Scénario Stratégique|Criminels (SR) volent données clients (OV) via prestataire (PP)
+Qu'est-ce qu'une Menace dans EBIOS RM ?|Le potentiel d'une source de risque à exploiter une vulnérabilité d'un bien. Dans le contexte de l'écosystème, le niveau de menace d'une partie prenante est évalué en fonction de son exposition (dépendance, pénétration) et de sa fiabilité cyber (maturité cyber, confiance).
+Donnez un exemple d'évaluation de Menace|Prestataire avec accès admin + faible sécurité = menace élevée
+Qu'est-ce qu'une Partie Prenante (PP) dans EBIOS RM ?|Entité (interne ou externe à l'organisation comme les clients, partenaires, prestataires, services internes, filiales) qui interagit avec l'objet de l'étude et fait partie de son écosystème.
+Donnez des exemples de Parties Prenantes (PP)|Fournisseur Internet, nettoyeur, comptable externe, filiale, marketing
+Qu'est-ce qu'un Scénario Opérationnel dans EBIOS RM ?|Description détaillée d'un mode opératoire technique (enchaînement d'actions élémentaires sur des biens supports) qu'une source de risque pourrait utiliser pour réaliser un scénario stratégique. Il est souvent représenté par un graphe d'attaque.
+Donnez un exemple de Scénario Opérationnel|Phishing > malware > mouvement latéral > accès R&D > exfiltration
+Qu'est-ce qu'une Vulnérabilité dans EBIOS RM ?|Faiblesse d'un bien support ou d'un ensemble de biens supports, ou d'un contrôle, qui peut être exploitée par une ou plusieurs menaces/sources de risque.
+Donnez des exemples de Vulnérabilités|OS non corrigé, mot de passe par défaut, faille SQL, employé non sensibilisé
+Qu'est-ce que la Vraisemblance dans EBIOS RM ?|Degré de faisabilité ou de possibilité qu'un scénario opérationnel (un mode opératoire de l'attaquant) aboutisse à l'objectif visé, compte tenu des capacités de la source de risque et des mesures de sécurité en place.
+Donnez un exemple d'évaluation de Vraisemblance|Rançongiciel via phishing = Très vraisemblable si faible sécurité email/formation
+Qu'est-ce que le Risque dans EBIOS RM ?|L'effet de l'incertitude sur les objectifs. En cybersécurité, il est souvent exprimé comme une combinaison de la vraisemblance d'un scénario et de la gravité de ses conséquences.
+Donnez un exemple de Risque|Perte financière (rançongiciel) = vraisemblance élevée + gravité critique
+Qu'est-ce que le Risque Initial dans EBIOS RM ?|Le niveau de risque évalué avant la mise en œuvre des mesures de traitement du risque issues de l'analyse de risque en cours.
+Donnez un exemple de Risque Initial|Perte données (rançongiciel) = Élevé avant EDR/sauvegardes
+Qu'est-ce que l'Évaluation des Risques dans EBIOS RM ?|Processus global comprenant l'identification des risques (Ateliers 1 à 4), l'analyse des risques (estimation de la vraisemblance et de la gravité) et l'appréciation des risques (comparaison aux critères de risque).
+Donnez un exemple d'Évaluation des Risques|Fuite données clients (Gravité: Critique, Vraisemblance: Très vraisemblable) = risque inacceptable
+Qu'est-ce que le Risque Résiduel dans EBIOS RM ?|Risque qui subsiste après la mise en œuvre du traitement du risque.
+Donnez un exemple de Risque Résiduel|Fuite données clients = Faible après chiffrement/MFA
+Qu'est-ce qu'une Mesure de Sécurité dans EBIOS RM ?|Action ou dispositif (organisationnel, technique, physique) mis en place pour modifier un risque. Cela peut viser à réduire sa vraisemblance, sa gravité, ou à le transférer, l'éviter.
+Donnez des exemples de Mesures de Sécurité|2FA, chiffrement disques, formation employés, pare-feu
+Qu'est-ce que le Plan de Traitement du Risque dans EBIOS RM ?|Document qui spécifie les actions, les responsabilités et les échéances pour la mise en œuvre des mesures de sécurité choisies pour traiter les risques identifiés.
+Qu'est-ce que le Traitement du Risque dans EBIOS RM ?|Processus de sélection et de mise en œuvre des options pour adresser les risques. Les options incluent éviter, prendre pour saisir une opportunité, éliminer la source, modifier la vraisemblance ou les conséquences, partager ou conserver le risque par décision éclairée.
+Quels sont les 5 ateliers de la méthode EBIOS RM ?|Atelier 1: Cadrage et socle de la sécurité, Atelier 2: Sources de risque, Atelier 3: Scénarios stratégiques, Atelier 4: Scénarios opérationnels, Atelier 5: Traitement du risque
+Quel est l'objectif de l'Atelier 1 d'EBIOS RM ?|Définir le cadrage et le socle de la sécurité en identifiant les Biens Support (BS), Valeurs Métier (VM), Événements Redoutés (ER), leurs impacts, gravité et le socle de sécurité de base
+Quel est l'objectif de l'Atelier 2 d'EBIOS RM ?|Identifier les Sources de Risque (SR) et leurs Objectifs Visés (OV) pour comprendre qui pourrait attaquer et dans quel but
+Quel est l'objectif de l'Atelier 3 d'EBIOS RM ?|Construire des Scénarios Stratégiques en analysant les Menaces et Parties Prenantes (PP) pour comprendre comment les attaquants pourraient procéder à haut niveau
+Quel est l'objectif de l'Atelier 4 d'EBIOS RM ?|Détailler les Scénarios Opérationnels en identifiant les Vulnérabilités et en évaluant la Vraisemblance des attaques techniques
+Quel est l'objectif de l'Atelier 5 d'EBIOS RM ?|Traiter les risques en évaluant les risques initiaux, définissant des mesures de sécurité, calculant les risques résiduels et créant un plan de traitement
+Quelle est l'évolution chronologique de la méthode EBIOS ?|EBIOS V1 (1995) → EBIOS V2 (2004) → EBIOS V3 (2010) → EBIOS RM (2018)
+Qui a publié la première version d'EBIOS en 1995 ?|Le SCSSI (Service Central de la Sécurité des Systèmes d'Information)
+Quelles sont les évolutions clés d'EBIOS V2 en 2004 ?|Convergence vers ISO 15408 et ajout de l'étape 5
+Quelles innovations EBIOS V3 (2010) a-t-elle apportées ?|Introduction des concepts de biens essentiels et événements redoutés par l'ANSSI
+Qui a développé EBIOS RM en 2018 et quelle est sa spécificité ?|Développé par l'ANSSI et le Club EBIOS, avec une approche orientée enjeux
+Quelle est la caractéristique principale de la démarche EBIOS RM ?|Elle est itérative - on fait appel plusieurs fois à chaque module pour améliorer progressivement le contenu
+Quels sont les 5 modules de la méthode EBIOS RM ?|1. Étude du contexte, 2. Étude des événements redoutés, 3. Étude des scénarios de menaces, 4. Étude des risques, 5. Étude des mesures de sécurité
+Que comprend le Module 1 - Étude du contexte ?|Identification du périmètre, des biens essentiels et des supports. Définition des métriques et des paramètres liés au traitement des risques.
+Que comprend le Module 2 - Étude des événements redoutés ?|Évaluation des besoins de sécurité (disponibilité, intégrité, confidentialité). Prise en compte des impacts : humains, financiers, environnementaux, juridiques. Détection des sources de menace.
+Que comprend le Module 3 - Étude des scénarios de menaces ?|Construction de scénarios plausibles à partir de menaces identifiées. Analyse des vulnérabilités exploitables.
+Que comprend le Module 4 - Étude des risques ?|Confrontation entre événements redoutés et scénarios de menaces. Évaluation des risques et définition des objectifs de sécurité.
+Que comprend le Module 5 - Étude des mesures de sécurité ?|Traitement des risques. Spécification des mesures nécessaires à l'atteinte des objectifs de sécurité.
+Comment ISO 31000:2018 définit-elle le risque ?|Effet de l'incertitude sur l'atteinte des objectifs
+Comment EBIOS RM 2018 définit-elle le risque ?|Possibilité d'un événement redouté perturbant les missions de l'objet de l'étude
+Selon ISO 27000:2018, que signifie "effet" dans la définition du risque ?|Écart par rapport à un attendu
+Selon ISO 27000:2018, que signifie "incertitude" dans la définition du risque ?|Défaut partiel de compréhension
+Quels sont les 8 principes de gestion du risque selon ISO 31000:2018 ?|Intégré, Structuré et global, Adapté, Inclusif, Dynamique, Meilleure information disponible, Facteurs humains et culturels, Amélioration continue
+Comment la notion d'événement redouté diffère-t-elle entre ISO 27005 et EBIOS RM ?|ISO 27005: Conséquence affectant un objectif. EBIOS RM: Porte atteinte à une valeur métier, mesurée par métrique
+Comment la notion d'impact diffère-t-elle entre ISO 27005 et EBIOS RM ?|ISO 27005: Altération des objectifs métier. EBIOS RM: Insatisfaction des besoins de sécurité ou environnement
+Comment la notion de menace diffère-t-elle entre ISO 27005 et EBIOS RM ?|ISO 27005: Cause d'un incident. EBIOS RM: Intention hostile dans le cyberespace (ciblée ou non)
+Comment la notion de mesure de sécurité diffère-t-elle entre ISO 27005 et EBIOS RM ?|ISO 27005: Moyens de gestion du risque (politiques, procédures...). EBIOS RM: Solutions ou exigences pouvant être contractuelles
+Quel est l'objectif principal de l'approche EBIOS selon le document ?|Atteindre les objectifs par décisions rationnelles
+D'où vient l'origine de l'approche de gestion des risques ?|De la finance dans les années 50, étendue à de nombreux domaines
+Quel est le rôle des risk managers selon l'approche EBIOS ?|Orienter les décisions et stratégies
+Avec quelle norme ISO la méthode EBIOS est-elle compatible ?|ISO 31000 pour préserver la valeur et stimuler l'innovation
