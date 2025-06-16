@@ -1,7 +1,18 @@
-# ISO-27001
+# ISO/IEC 27001 & EBIOS RM — Notes
 
-- Chap. 4 <-> Chap. 10 le reste sert a R
-- Version 2022
+Notes GRC personnelles sur la **gouvernance de la sécurité de l'information** :
+ISO/IEC 27001:2022 (périmètre du SMSI, audit interne selon ISO 19011) et
+**EBIOS Risk Manager** — la méthode d'analyse de risque / **threat modeling** de l'ANSSI.
+
+## Sommaire
+- **ISO 27001:2022** — SMSI, contexte & audit — notes ci-dessous
+- **[EBIOS-RM/](EBIOS-RM/)** — guide ANSSI EBIOS RM v1.5 + méthode
+
+> Notes d'apprentissage (FR), ISO 27001:2022, chapitres 4 → 10.
+
+---
+
+## Notes — ISO 27001 (v2022)
 
 - ISO 19011 : Normalisation des audits
 - Audit interne se fait tout les ans, avant l'audit de surveillance
