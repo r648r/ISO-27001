@@ -1,6 +1,6 @@
 # ISO/IEC 27001 & EBIOS RM — Notes
 
-[🇬🇧 English](README.md) · 🇫🇷 **Français**
+[English](README.md) · **Français**
 
 Notes GRC personnelles sur la **gouvernance de la sécurité de l'information** :
 ISO/IEC 27001:2022 (périmètre du SMSI, audit interne selon ISO 19011) et
@@ -10,7 +10,7 @@ ISO/IEC 27001:2022 (périmètre du SMSI, audit interne selon ISO 19011) et
 - **ISO 27001:2022** — SMSI, contexte & audit — notes ci-dessous
 - **[EBIOS-RM/](EBIOS-RM/)** — guide ANSSI v1.5, [fiches méthode des 5 ateliers](EBIOS-RM/fiches-methode.md) & [flashcards de révision](EBIOS-RM/flashcards.txt)
 
-> Notes d'apprentissage (FR), ISO 27001:2022, chapitres 4 → 10.
+> Notes d'apprentissage (FR), ISO 27001:2022, chapitres 4 -> 10.
 
 ---
 
