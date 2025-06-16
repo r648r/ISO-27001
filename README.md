@@ -1,5 +1,7 @@
 # ISO/IEC 27001 & EBIOS RM — Notes
 
+🇫🇷 **Français** · [🇬🇧 English](README.en.md)
+
 Notes GRC personnelles sur la **gouvernance de la sécurité de l'information** :
 ISO/IEC 27001:2022 (périmètre du SMSI, audit interne selon ISO 19011) et
 **EBIOS Risk Manager** — la méthode d'analyse de risque / **threat modeling** de l'ANSSI.
